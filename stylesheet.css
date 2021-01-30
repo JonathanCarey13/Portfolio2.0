@@ -37,11 +37,20 @@ body p {
     text-decoration: none;
     color: ivory;
     font-size: 28px;
+    -webkit-transition: font-size 0.2s ease-out;
+    -moz-transition: font-size 0.2s ease-out;
+    -o-transition: font-size 0.2s ease-out;
 }
 
-.nav-item a:hover {
-    color: var(--grn);
+#bootstrapOverride .nav-item a:hover {
+    color: var(--drkpnk);
+    cursor:pointer;
+    font-size: 32px;
+
+    /* margin-top: 5px; */
 }
+
+
 
 @media screen and (max-width: 890px) {
     #bootstrapOverride .jumbotron {
@@ -110,6 +119,14 @@ body p {
 #bootstrapOverride #socialCards .card {
     background-color: transparent;
     border: none;
+}
+
+#bootstrapOverride #anchorProjects .card, #anchorLinks .card {
+    transition: transform .2s;
+}
+
+#bootstrapOverride #anchorProjects .card:hover, #anchorLinks .card:hover {
+    transform: scale(1.05);
 }
 
 #bootstrapOverride #sectionHead {

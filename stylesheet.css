@@ -118,6 +118,35 @@ body p {
     font-family: 'Vaporwave', sans-serif !important;
 }
 
+#bootstrapOverride #anchorSkills {
+    margin-top: 10em;
+}
+
+#bootstrapOverride #anchorProjects {
+    margin-top: 20em;
+}
+
+#bootstrapOverride #anchorLinks {
+    margin-top: 20em;
+}
+
+#bootstrapOverride #anchorContact {
+    margin-top: 20em;
+}
+
+#bootstrapOverride #anchorAbout p {
+    font-size: 20px;
+}
+
+#bootstrapOverride #resume {
+    text-decoration: none;
+    color: ivory;
+}
+
+#bootstrapOverride #resume:hover{
+    color: black;
+}
+
 
 /* Contact Box Stylings Below */
 textarea[name="message"] {

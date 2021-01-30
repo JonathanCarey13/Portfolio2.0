@@ -116,6 +116,22 @@ body p {
     margin-bottom: 2em;
 }
 
+#bootstrapOverride #anchorProjects .card .btn {
+    background-color: #513782;
+    border: #513782;
+    transition: transform .2s;
+}
+
+#bootstrapOverride #anchorProjects .card .btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#bootstrapOverride #anchorProjects .card, .card p {
+    background-color:  #27282E;
+    color:ivory;
+}
+
 #bootstrapOverride #socialCards .card {
     background-color: transparent;
     border: none;

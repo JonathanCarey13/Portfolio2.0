@@ -1,0 +1,176 @@
+.root {
+    --grn: #00e205;
+    --drkgray: #161618;
+    --lgtgrey: #27282E;
+    --pnk: #E501BD;
+    --htpnk: #FF4DA6;
+    --lgtbl: #A9F5FF;
+    --drkpnk: #5F090D;
+}
+
+@font-face {
+    font-family: 'Vaporwave', sans-serif;
+    src: url(./assets/discoduckhalf.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+body {
+    background-image: linear-gradient( #4D194D, #006466);
+    background-repeat: no-repeat;
+    margin: 0em;
+    padding: 0em;
+    overflow-x: hidden;
+}
+
+body p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#bootstrapOverride .navbar {
+    text-align: center;
+    height: 50px;
+}
+
+#bootstrapOverride .nav-item a {
+    margin-right: 2em;
+    text-decoration: none;
+    color: ivory;
+    font-size: 28px;
+}
+
+.nav-item a:hover {
+    color: var(--grn);
+}
+
+@media screen and (max-width: 890px) {
+    #bootstrapOverride .jumbotron {
+      background: transparent;
+    }
+    #bootstrapOverride #jumbotronText {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 890px) {
+    #bootstrapOverride .jumbotron {
+    background: url("./assets/Sitting\ Duck.jpg");
+    }
+}
+
+#bootstrapOverride .jumbotron {
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 500px;
+    background-position-y: center;
+    background-position-x: left;
+    background-size: 100vw;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-right: 0em;
+}
+
+#bootstrapOverride #jumbotronText {
+    font-size: 75px;
+    color: ivory;
+    text-shadow: 4px 4px black;
+    float: right;
+    text-align: right;
+    padding-right: .4em;
+    margin-top: .55em;
+    font-family: 'Vaporwave', sans-serif !important;
+}
+
+
+#bootstrapOverride #heroPic {
+    background: url(./assets/Camping-13.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 400px;
+    background-size: contain;
+    border: none;
+    border-radius: 5px;
+}
+
+#aboutOverride {
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+#bootstrapOverride #imgCards {
+    background: transparent;
+    border: none;
+}
+
+#bootstrapOverride .row {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#bootstrapOverride #socialCards .card {
+    background-color: transparent;
+    border: none;
+}
+
+#bootstrapOverride #sectionHead {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Vaporwave', sans-serif !important;
+}
+
+
+/* Contact Box Stylings Below */
+textarea[name="message"] {
+    resize: none
+}
+
+#e-mail {
+    height: 45px;
+}
+
+#message {
+    height: 120px;
+}
+
+input.input-box,
+textarea.input-box {
+    background-color: #616161;
+    border: #616161;
+    color: #BDBDBD;
+}
+
+input.input-box:focus,
+textarea.input-box:focus {
+    background-color: #000000;
+    color: #BDBDBD;
+}
+
+.rm-border:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+form .form-control::-webkit-input-placeholder {
+    color: #9E9E9E;
+}
+
+::-moz-placeholder {
+    color: #9E9E9E !important
+}
+
+input.btn-purple {
+    background-color: #5C6BC0;
+    color: #ffffff;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 4em;
+}
+
+.formText {
+    color: ivory;
+}
+
+#bootstrapOverride #contactHeader {
+    margin-top: 2em;
+}

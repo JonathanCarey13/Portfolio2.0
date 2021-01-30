@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- This here is my stylin' sheet baby! -->
+    <link rel="stylesheet" href="./stylesheet.css" type="text/css">
+
+    <title>Jonathan's Portfolio</title>
+  </head>
+  <body id="override">
+    <div id="bootstrapOverride">
+        <!-- NavBar -->
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid col-md-10" id="navbarOverride">
+                <div class="navbar-header font-weight-bolder">
+                    <p><a href="#anchorAbout" class="heroTitle"></a></p>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <span class="collapse navbar-collapse" id="navBarCollapse">
+                    <span class="navbar-text">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#anchorAbout">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#anchorSkills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#anchorProjects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#anchorLinks">Socials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#anchorContact">Contact</a></li>
+                    </ul>
+                    </span>
+                </span>
+            </div>
+        </div>
+
+        <!-- Intro Banner with Duck-->
+        <div class="container-fluid" style="padding-left: 0em;">
+            <div class="row jumbotron" style="margin: 0em;">
+                <div class="col-lg-12">
+                    <h1 class="lead" id="jumbotronText">Jonathan Carey</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div id="aboutOverride">
+            <div class="container-fluid" id="anchorAbout">
+                <div class="row">
+                    <div class="col-md-6 text-light">
+                    <h1>Lord Jonathan Carey</h1>
+                    <p>Yep, I really am a Lord. But I'm also a software developer with a background in film! After seizing an
+                        opportunity at Eleven Fifty Academy, I learned Software Development through a series of industry driven projects
+                        like making text based games, creating my own API, and making a full stack Web Application! In my
+                        spare time when I'm not learning Unity, I have been known to enjoy tennis,
+                        video games, photography, and obessing over the deep lore of Lord of the Rings.</p>
+                    <a href="https://github.com/JonathanCarey13/Portfolio/raw/master/Jonathan%20Carey%20SD%20Resume.pdf" download>
+                        <i class="fas fa-file-download"></i>
+                    </a>
+                    </div>
+                    <!--Profile Picture Here-->
+                    <div class="col-md-6">
+                        <div class="card" id="imgCards" style="width: 18rem;">
+                            <img src="./assets/Camping-13.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tech Skills Section -->
+        <div class="container-fluid" id="anchorSkills">
+            <div class="row align-items-center text-light">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <h2 class="techSkillsHeader" id="sectionHead">Tech Skills</h2>
+                </div>
+              <div class="col-lg-2"></div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="card" id="imgCards" style="width: 18rem;">
+                    <img src="https://www.iconfinder.com/data/icons/logotypes/32/badge-html-5-512.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card" id="imgCards" style="width: 18rem;">
+                    <img src="https://www.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card" id="imgCards" style="width: 18rem;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/C_Sharp_logo.svg/1200px-C_Sharp_logo.svg.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card" id="imgCards" style="width: 21em;">
+                    <img src="https://img.icons8.com/color/452/bootstrap.png" class="card-img-top" alt="...">
+                </div>
+              </div>
+            </div>
+
+        <!-- Project Cards-->
+        <div class="container-fluid" id="anchorProjects">
+            <div class="row text-center align-items-center padding text-light">
+                <div class="col-lg-12">
+                  <h2 class="techSkillsHeader" id="sectionHead">Projects</h2>
+                </div>
+              </div>
+            <!-- Top Row -->
+            <div class="row justify-content-around">
+                <div class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="./assets/CSS Creature.JPG" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">CSS Kirby</h5>
+                      <p class="card-text">This project was a challenge to build an image using only CSS styling elements, so I created the lovable pink ball, Kirby. See the project yourself at my Codepen Profile!</p>
+                      <a href="https://codepen.io/joncarey13/pen/WNwwNNB" class="btn btn-primary">Click to see Kirby!</a>
+                    </div>
+                  </div>
+            
+                <div class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="./assets/Store Front Page.JPG" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Strickland Propane</h5>
+                    <p class="card-text">This is an imaginary store front page made from scratch for an imaginary business! In this case, I made it for Strickland Propane from the show King of the Hill.</p>
+                    <a href="https://jonathancarey13.github.io/Static-Store-Page/" class="btn btn-primary">Click for Clean Burning Propane</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="./assets/Blank Form Page.JPG" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">The Login Form</h5>
+                    <p class="card-text">This login page was built from scratch as practice for developing my front end skills with HTML and CSS. Attempt the impossible by trying to login yourself by clicking below!</p>
+                    <a href="https://jonathancarey13.github.io/HTMLRegisterPage/" class="btn btn-primary">Take on the Impossible Login Challenge</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom Row -->
+            <div class="row justify-content-around">
+                <div class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="./assets/CSharp.JPG" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Three Menus</h5>
+                      <p class="card-text">This C# project is a group of three different menus to make mock insurance claims, security bages, and a cafe ordering system. The purpose was to understand and utilize CRUD as my first C# project.</p>
+                      <a href="https://github.com/JonathanCarey13/GoldBadgeChallenges" class="btn btn-primary">See the GitHub Repository</a>
+                    </div>
+                  </div>
+            
+                <div class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="./assets/TextGameCode.JPG" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">BBNeight: The Home Inventory API</h5>
+                    <p class="card-text">This was a collaboritive group project where we learned how to create our own API and utlizing GitHub as a team.</p>
+                    <a href="https://github.com/weswolff/BBNEighT" class="btn btn-primary">See the GitHub Repository</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="./assets/Underwatch.JPG" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Underwatch</h5>
+                    <p class="card-text">Underwatch is an N-Tier architectured MVC Web Application. The purpose of Underwatch is to create an easy way to catalogue and follow Games and News/Updates for that Game.</p>
+                    <a href="https://github.com/JonathanCarey13/Underwatch" class="btn btn-primary">See the GitHub Repository</a>
+                    <p class="card-text">or</p>
+                    <a href="#" class="btn btn-primary">See the Website Live!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Accounts -->
+        <div class="container-fluid" id="anchorLinks">
+            <div class="row text-center align-items-center padding text-light">
+                <div class="col-lg-12">
+                  <h2 class="techSkillsHeader" id="sectionHead">Social Media</h2>
+                </div>
+              </div>
+            <div class="row justify-content-around" id="socialCards">
+                <div class="card" style="width: 18rem;">
+                    <a href="https://github.com/JonathanCarey13"><img class="card-img-top" src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" alt="Card image cap"></a>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="https://www.linkedin.com/in/jonathan-carey-ab5467a2/"><img class="card-img-top" src="https://cdn.iconscout.com/icon/free/png-256/linkedin-2662666-2213265.png" alt="Card image cap"></a>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="https://codepen.io/joncarey13"><img class="card-img-top" src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png" alt="Card image cap"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Box -->
+        <div class="container-fluid" id="anchorContact">
+            <form action="https://formspree.io/f/mnqozwaw" method="POST">
+                <div class="formText">
+                    <div class="row justify justify-content-center text-center">
+                      <div class="col-10 col-md-8 col-lg-6 col-xl-5">
+                        <form class="form-control-lg">
+                          <div class="card bg-dark">
+                              <div class="col-md-12 ">
+                                <h4 style="margin-top: 1.5em;">Contact Me!</h4>
+                                <p style="margin-right: 2em; margin-left: 2em; margin-top: 2em;">Use the form below to send your questions about the legitamacy of my Lordhood, ideas, comments or feedback!</p>
+                              </div>
+                            <div class="form-group row mb-3">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8 mb-0">
+                                    <p class="mb-1">Email</p> <input id="e-mail" type="text" placeholder="Enter your email" name="email"
+                                    class="form-control input-box rm-border">
+                                </div>
+                              <div class="col-md-2"></div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8 mb-2">
+                                    <p class="mb-1">Message</p> <textarea id="message" type="text" placeholder="Enter your message"
+                                    name="message" class="form-control input-box rm-border"></textarea>
+                                </div>
+                              <div class="col-md-2"></div>
+                            </div>
+                            <div class="form-group row justify-content-center mb-0">
+                              <div class="col-md-12 px-3"> <input type="submit" value="Submit"
+                                  class="btn btn-block btn-purple rm-border"> </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                </div>
+              </form>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row text-center align-items-center padding">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Lord Jonathan Carey All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>

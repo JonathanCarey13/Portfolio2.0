@@ -111,6 +111,16 @@ body p {
     border: none;
 }
 
+#bootstrapOverride #imgCardCSharp {
+    background: transparent;
+    border: none;
+}
+
+#bootstrapOverride #imgCardBootstrap {
+    background: transparent;
+    border: none;
+}
+
 #bootstrapOverride .row {
     margin-top: 2em;
     margin-bottom: 2em;

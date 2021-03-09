@@ -106,6 +106,13 @@ body p {
     margin-left: 3em;
 }
 
+#bootstrapOverride #imgCardProfilePic {
+    background: transparent;
+    border: none;
+    height: 25em;
+    width: 15em;
+}
+
 #bootstrapOverride #imgCards {
     background: transparent;
     border: none;

@@ -15,6 +15,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
 
+@media screen and (max-width: 890px) {
+    #bootstrapOverride .jumbotron {
+        background: transparent;
+    }
+    #bootstrapOverride #jumbotronText {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 890px) {
+    #bootstrapOverride .jumbotron {
+        background: url("./assets/Sitting\ Duck.jpg");
+    }
+}
+
+@media screen and (max-width: 1100px) { 
+    #bootstrapOverride #imgCardProfilePic {
+        visibility: hidden;
+    }
+}
+
 body {
     background-image: linear-gradient( #4D194D, #006466);
     background-repeat: no-repeat;
@@ -25,6 +46,11 @@ body {
 
 body p {
     font-family: 'Work Sans', sans-serif;
+}
+
+#aboutOverride {
+    margin-top: 3em;
+    margin-left: 3em;
 }
 
 #bootstrapOverride .navbar {
@@ -50,23 +76,6 @@ body p {
     /* margin-top: 5px; */
 }
 
-
-
-@media screen and (max-width: 890px) {
-    #bootstrapOverride .jumbotron {
-      background: transparent;
-    }
-    #bootstrapOverride #jumbotronText {
-        text-align: center;
-    }
-}
-
-@media screen and (min-width: 890px) {
-    #bootstrapOverride .jumbotron {
-    background: url("./assets/Sitting\ Duck.jpg");
-    }
-}
-
 #bootstrapOverride .jumbotron {
     background-repeat: no-repeat;
     width: 100vw;
@@ -89,21 +98,6 @@ body p {
     padding-right: .4em;
     margin-top: .55em;
     font-family: 'Vaporwave', sans-serif !important;
-}
-
-#bootstrapOverride #heroPic {
-    background: url(./assets/Camping-13.jpg);
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 400px;
-    background-size: contain;
-    border: none;
-    border-radius: 5px;
-}
-
-#aboutOverride {
-    margin-top: 3em;
-    margin-left: 3em;
 }
 
 #bootstrapOverride #imgCardProfilePic {

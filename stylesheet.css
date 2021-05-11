@@ -63,6 +63,7 @@ body p {
     text-decoration: none;
     color: ivory;
     font-size: 28px;
+    transition: 2s ease-out;
     -webkit-transition: font-size 0.2s ease-out;
     -moz-transition: font-size 0.2s ease-out;
     -o-transition: font-size 0.2s ease-out;
@@ -185,6 +186,8 @@ body p {
 #bootstrapOverride #resume {
     text-decoration: none;
     color: ivory;
+    overflow: scroll;
+    transition: font-size 0.2s ease-in;
     -webkit-transition: font-size 0.2s ease-in;
     -moz-transition: font-size 0.2s ease-in;
     -o-transition: font-size 0.2s ease-in;
@@ -193,6 +196,7 @@ body p {
 #bootstrapOverride #resume p:hover {
     color: black;
     font-size: 40px;
+    transition: font-size 0.2s ease-out;
     -webkit-transition: font-size 0.2s ease-out;
     -moz-transition: font-size 0.2s ease-out;
     -o-transition: font-size 0.2s ease-out;

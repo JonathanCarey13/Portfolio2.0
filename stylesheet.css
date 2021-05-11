@@ -108,8 +108,8 @@ body p {
 
 #bootstrapOverride #imgCardProfilePic {
     background: transparent;
-    border: none;
-    height: 25em;
+    border-radius: 50%;
+    height: 20em;
     width: 15em;
 }
 
@@ -185,16 +185,23 @@ body p {
 }
 
 #bootstrapOverride #anchorAbout p {
-    font-size: 20px;
+    font-size: 28px;
 }
 
 #bootstrapOverride #resume {
     text-decoration: none;
     color: ivory;
+    -webkit-transition: font-size 0.2s ease-in;
+    -moz-transition: font-size 0.2s ease-in;
+    -o-transition: font-size 0.2s ease-in;
 }
 
-#bootstrapOverride #resume:hover{
+#bootstrapOverride #resume p:hover {
     color: black;
+    font-size: 40px;
+    -webkit-transition: font-size 0.2s ease-out;
+    -moz-transition: font-size 0.2s ease-out;
+    -o-transition: font-size 0.2s ease-out;
 }
 
 
@@ -252,4 +259,12 @@ input.btn-purple {
 
 #bootstrapOverride #contactHeader {
     margin-top: 2em;
+}
+
+#bootstrapOverride .aboutTextBox {
+    margin-top: .75em;
+}
+
+#bootstrapOverride #anchorAbout p{
+    margin-top: .75em;
 }

@@ -123,11 +123,19 @@ body p {
 #bootstrapOverride #imgCardCSharp {
     background: transparent;
     border: none;
+    margin-top: 3em;
 }
 
 #bootstrapOverride #imgCardBootstrap {
     background: transparent;
     border: none;
+    margin-top: 2.75em;
+}
+
+#bootstrapOverride #imgCardASP {
+    background: transparent;
+    border: none;
+    margin-top: 2.75em;
 }
 
 #bootstrapOverride .row {

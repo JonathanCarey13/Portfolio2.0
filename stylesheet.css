@@ -212,6 +212,9 @@ body p {
 
 #bootstrapOverride #resume {
     text-decoration: none;
+    position: relative;
+    margin-left: 40%;
+    margin-right: 40%;
     color: ivory;
     cursor: pointer;
     overflow: hidden;
@@ -220,6 +223,14 @@ body p {
     -webkit-transition: font-size 0.2s ease-in;
     -moz-transition: font-size 0.2s ease-in;
     -o-transition: font-size 0.2s ease-in;
+}
+
+.btn-primary:hover {
+
+    transition: font-size 0.2s ease-out;
+    -webkit-transition: font-size 0.2s ease-out;
+    -moz-transition: font-size 0.2s ease-out;
+    -o-transition: font-size 0.2s ease-out;
 }
 
 #bootstrapOverride #resume p:hover {

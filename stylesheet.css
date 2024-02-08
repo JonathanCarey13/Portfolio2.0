@@ -126,10 +126,22 @@ body p {
     margin-top: 3em;
 }
 
+#bootstrapOverride #imgCardJava {
+    background: transparent;
+    border: none;
+    margin-top: 3em;
+}
+
 #bootstrapOverride #imgCardBootstrap {
     background: transparent;
     border: none;
-    margin-top: 2.75em;
+    margin-top: 1.55em;
+}
+
+#bootstrapOverride #imgCardSelenium {
+    background: transparent;
+    border: none;
+    margin-top: 4.15em;
 }
 
 #bootstrapOverride #imgCardASP {
